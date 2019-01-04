@@ -18,7 +18,7 @@ describe('SagaTester', () => {
     const anotherAction     = { type : anotherActionType };
     const reduxAction       = { type : reduxActionType };
 
-    it('Passes options to createSagaMiddleware', () => {
+    it.skip('Passes options to createSagaMiddleware', () => {
         // kind of backwards - we can't introspect the sagatester to see if our
         // options were passed in but we can observe its behavior, and passing in
         // a non-function for a logger is something that redux-saga explicitly tests
